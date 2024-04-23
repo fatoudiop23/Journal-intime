@@ -8,7 +8,7 @@
   
   <!-- Topbar Search -->
 <div >
-    <h3 class="text- text-white m-4 ">MON JOURNAL INTIME</h3>
+    <h2 class="text- text-white m-4 ">MON JOURNAL INTIME</h2>
 </div>
   
   
