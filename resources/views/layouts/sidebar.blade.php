@@ -1,21 +1,9 @@
-<style>
 
-.journal-icon {
-            font-size: 90px;
-            color: white;
-        }
-</style>
 
 <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
   
   <!-- Sidebar - Brand -->
-  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-    <div class="">
-    <i class="fas fa-newspaper journal-icon" ></i>
-
-    </div>
-    <div class=""><sup></sup></div>
-  </a>
+  
 
   <!-- Divider -->
   <hr class="sidebar-divider my-13">
@@ -26,26 +14,26 @@
     <a class="nav-link text-white " href="{{ route('dashboard') }}">
       <i class="fas fa-fw fa-tachometer-alt"></i>
       <strong class="texte-gras">ACCEUIL</strong></a>
-  </li>
+  </li><br><br>
 
   <li class="nav-item">
     <a class="nav-link text-white " href="{{ route('test.create') }}">
     <i class="fas fa-plus"></i> <!-- Ajout d'une icône -->
 
       <strong class="texte-gras">CREER UN JOURNAL</strong></a>
-  </li>
+  </li><br><br>
   <li class="nav-item">
     <a class="nav-link text-white " href="{{ route('test.index') }}">
     <i class="fas fa-list"></i> <!-- Ajout d'une icône -->
 
       <strong class="texte-gras">LISTER LES JOURNALS</strong></a>
-  </li>
+  </li><br><br>
   <li class="nav-item">
 
   <a class="nav-link text-white" href="{{ route('logout') }}">
   <i class="fas fa-sign-out-alt"></i>
   <strong class="texte-gras">SE DECONNECTER</strong></a>
-       </li>
+       </li><br><br>
        <li class="nav-item">
 
   <a class="nav-link text-white" href="{{ route('profil') }}">
